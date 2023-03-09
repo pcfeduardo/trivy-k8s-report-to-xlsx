@@ -1,5 +1,9 @@
 # README
-
+## Recommendations
+### Create your own venv
+```bash
+python -m venv .venv
+```
 ## Prerequisites
 ### Install python modules:
 ```bash
