@@ -125,7 +125,7 @@ with open(report_file, 'r') as all_reports:
                     all_vulns.append(result_vuln)
 all_reports.close()
 
-with pandas.ExcelWriter(f'report.xlsx') as report_file:
+with pandas.ExcelWriter(args.output) as report_file:
     misc = pandas.DataFrame(all_misconfigurations)
     vuln = pandas.DataFrame(all_vulns)
 
