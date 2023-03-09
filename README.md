@@ -1,4 +1,7 @@
 # README
+## About
+Processes the k8s cluster assessment in json and transforms it into xlsx (needs Trivy).
+
 ## Recommendations
 ### Create your own venv
 ```bash
