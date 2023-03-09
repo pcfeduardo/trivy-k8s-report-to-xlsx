@@ -8,6 +8,9 @@ Processes the k8s cluster assessment in json and transforms it into xlsx (needs 
 python -m venv .venv
 ```
 ## Prerequisites
+1. Trivy (https://github.com/aquasecurity/trivy)
+2. pandas (python package)
+2. openpyxl (python package)
 ### Install python modules:
 ```bash
 pip3 install pandas
